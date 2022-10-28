@@ -6,13 +6,15 @@
   </listeners>
   <test thread-count="5" name="Final Maven Project(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ContactsPageTest">
+      <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="teardown"/>
-          <include name="validatecreateNewContact" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="crmlogoImageTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Final Maven Project(failed) -->
 </suite> <!-- Failed suite [Suite] -->
