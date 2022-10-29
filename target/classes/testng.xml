@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<listeners>
+	<listener class-name="com.qa.extentReportListener.ExtentReporterNG"/>
+</listeners>
+
+  <test name="Final Maven Project">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomepageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+      <class name="com.crm.qa.testcases.DealsPageTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
