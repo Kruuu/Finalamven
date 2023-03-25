@@ -49,6 +49,7 @@ public class DealsPageTest extends TestBase {
 	public void verifyDealsPageLabel()
 	{
 		Assert.assertTrue(dealspage.verifyDealaLable());
+	
 	}
 	
 	

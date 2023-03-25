@@ -29,7 +29,7 @@ public class LoginPage extends TestBase{
 	@FindBy (xpath="//img[contains(@class,'img-responsive')]")
 	WebElement crmlogo;
 	
-	JavascriptExecutor jse = (JavascriptExecutor)driver;
+	JavascriptExecutor jse = (JavascriptExecutor)driver;  // 
 	
 	// Initializing the page Objects
 	public LoginPage() throws IOException 

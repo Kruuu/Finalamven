@@ -42,6 +42,8 @@ public class ContactsPage extends TestBase {
 	
      public void selectContactsByName(String name)
      {
+    	//driver.findElement(By.xpath("//input[@value='52900225']")).click();
+    	// Select ContactByname= new Select(SelectContact);
     	 driver.findElement(By.xpath("//a[text()='"+name+"']")).click();
      }
      
@@ -49,6 +51,7 @@ public class ContactsPage extends TestBase {
      {
     	 Select select = new Select(driver.findElement(By.name("title")));
     	 select.selectByVisibleText(title);
+    	 
     	 firstname.sendKeys(ftname);
     	 lastname.sendKeys(ltname);
     	 nickname.sendKeys(nkname);
